@@ -13,12 +13,13 @@ SECRET_KEY = 'ajix2yoegb!%p-70+5l4vvi2arbcjeew=v*es)f77h*v5%so9&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'lunchmap.apps.LunchmapConfig',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
