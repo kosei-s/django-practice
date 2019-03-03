@@ -19,6 +19,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'train_tweet.apps.TrainTweetConfig',
     'lunchmap.apps.LunchmapConfig',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
